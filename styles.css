@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700&family=Open+Sans:ital,wght@0,300;0,400;1,600&family=Roboto:wght@300;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  flex-direction: column;
+  background-color: #d74949;
+  font-family: "roboto";
+}
+main {
+  max-width: 1110px;
+  padding: 50px;
+  background-color: rgba(243, 243, 243, 1);
+  margin: auto;
+  height: 93vh;
+}
+.title1 {
+  text-align: left;
+  font-size: 14px;
+  font-weight: 300;
+  margin-bottom: 12px;
+}
+.title2 {
+  text-align: right;
+  font-size: 16px;
+  font-weight: 800;
+  letter-spacing: 1.12px;
+  margin-bottom: 7px;
+}
+.title3 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 38px;
+}
+.title3 > span {
+  color: #8f2727;
+}
+.card {
+  width: 200px;
+  height: 300px;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+img {
+  width: 200px;
+  height: 185px;
+}
+.card_text {
+  padding: 20px;
+}
+.card_name {
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.56px;
+  margin-bottom: 3px;
+}
+.card_job {
+  font-weight: 300;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.card_icon > img {
+  width: 18px;
+  height: 18px;
+  margin-right: 8px;
+}
+footer {
+  max-height: 70px;
+  text-align: center;
+  color: white;
+  background-color: rgba(58, 58, 58, 1);
+  font-size: 14px;
+  font-weight: 700;
+  padding: 27px;
+}
